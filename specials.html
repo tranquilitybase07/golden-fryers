@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Golden Fryers - Specials</title>
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <div class="content">
+        <header>
+            <div class="container">
+                <nav>
+                    <div class="nav-container">
+                        <a href="index.html" class="brand">Golden Fryers</a>
+                        <div class="nav-toggle" id="nav-toggle">
+                            <div class="bar"></div>
+                            <div class="bar"></div>
+                            <div class="bar"></div>
+                        </div>
+                        <ul class="nav-menu" id="nav-menu">
+                            <li class="nav-close" id="nav-close">&times;</li>
+                            <li><a href="index.html">Home</a></li>
+                            <li><a href="about.html">About</a></li>
+                            <li><a href="team.html">Our Team</a></li>
+                            <li><a href="specials.html">Specials</a></li>
+                            <li><a href="training.html">Training</a></li>
+                            <li><a href="media.html">Media</a></li>
+                            <li><a href="faqs.html">FAQs</a></li>
+                            <li><a href="contact.html">Contact Us</a></li>
+                        </ul>
+                    </div>
+                </nav>
+            </div>
+        </header>
+        <main>
+            <div class="container">
+                <section class="special-item">
+                    <h2>Product of the Week</h2>
+                    <p>The Golden Fryer 5000, featuring the latest technology for perfect frying every time. Now
+                        available at a special price!</p>
+                    <img src="images/product-of-the-week.png" alt="Product of the Week">
+                </section>
+                <section class="special-item">
+                    <h2>Weekly Sales</h2>
+                    <p>Don't miss out on our weekly sales! Get up to 50% off on select deep fryers.</p>
+                    <img src="images/weekly-sales.jpg" alt="Weekly Sales">
+                </section>
+                <section class="special-item">
+                    <h2>Customer Guarantee</h2>
+                    <p>We stand by the quality of our products. <strong>Try them risk-free today!</strong></p>
+                    <img src="images/guarantee.jpg" alt="Customer Guarantee">
+                </section>
+                <section class="special-item">
+                    <h2>Why Buy From Us?</h2>
+                    <ul>
+                        <li>Top-quality products with advanced features</li>
+                        <li>Competitive prices</li>
+                        <li>Outstanding customer service</li>
+                        <li>Fast and reliable shipping</li>
+                    </ul>
+                    <img src="images/why-buy.jpg" alt="Why Buy From Us">
+                </section>
+            </div>
+        </main>
+    </div>
+    <footer>
+        <div class="container">
+            &copy; 2099 Golden Fryers. All Rights Reserved.<br>
+            <a href="mailto:info@goldenfryers.com">Request information</a><br>
+            Ankush Kumar C0931801
+        </div>
+    </footer>
+    <script>
+        document.getElementById('nav-toggle').addEventListener('click', function () {
+            document.getElementById('nav-menu').classList.toggle('active');
+        });
+        document.getElementById('nav-close').addEventListener('click', function () {
+            document.getElementById('nav-menu').classList.remove('active');
+        });
+    </script>
+</body>
+
+</html>
